@@ -1,0 +1,11 @@
+.Navbar {
+    &__item {
+        color: #FFFFFF;
+        margin: 0 6px;
+        cursor: pointer;
+    }
+
+    &__item:hover {
+        border-b: 1px solid #FFFFFF;
+    }
+}
