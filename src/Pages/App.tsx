@@ -1,16 +1,24 @@
-import Header from '../Components/Header/Header';
-import logo from '../assets/images/logo.svg';
+import Header from '../Components/Header/Header'
 
-import './App.css';
+import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Sobre from './Sobre/Sobre'
+import Home from './Home/Home'
+import Produtos from './Produtos/Produtos'
+import Contato from './Contato/Contato'
 
 function App() {
   return (
     <>
+    <BrowserRouter>
     <Header />
-    <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Eu sou uma aplicação React</p>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/sobre" element={<Sobre />} />
+      <Route path="/produtos" element={<Produtos />} />
+      <Route path="/contato" element={<Contato />} />
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }
