@@ -1,0 +1,32 @@
+.NotFound {
+    text-align: center;
+
+  h2 {
+    color: #17428e;
+    margin: 100px auto 10px;
+  }
+
+  a {
+    border: 1px solid transparent;
+    color: #17428e;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.25s, border-color 0.25s, box-shadow 0.25s,
+    color 0.25s;
+
+  }
+
+  a:hover {
+    transition: background-color 0.25s,  color 0.25s;
+    background-color: #E7EDF7;
+  }
+
+  &__animation > div {
+    height: 20vh;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
