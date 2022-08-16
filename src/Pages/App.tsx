@@ -8,6 +8,7 @@ import Produtos from './Produtos/Produtos'
 import Sobre from './Sobre/Sobre'
 
 import './App.css'
+import Footer from '../Components/Footer/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/contato" element={<Contato />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
+    <Footer />
     </BrowserRouter>
     </>
   );
