@@ -1,12 +1,17 @@
 .Navbar {
     &__item {
-        color: #FFFFFF;
+        color: 	#ccf9ff;
         margin: 0 6px;
         cursor: pointer;
         text-decoration: none;
+        transition: box-shadow 0.25s, color 0.25s;
     }
 
     &__item:hover {
-        border-bottom: 1px solid #FFFFFF;
+        color: #55d0ff;
+        box-shadow: #00acdf 0px 3px,
+                    #55d0ff 0px 5px, 
+                    #7ce8ff 0px 8px;
+                    
     }
 }

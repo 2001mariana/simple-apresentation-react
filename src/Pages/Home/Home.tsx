@@ -8,7 +8,7 @@ function Home() {
     <>
     <div className="Home">
         <img src={logo} className="Home__logo" alt="logo" />
-        <h2>Esta é a Home</h2>
+        <h2>Aplicação criada utilizando React</h2>
     </div>
     </>
   );
