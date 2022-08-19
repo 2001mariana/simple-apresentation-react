@@ -4,7 +4,7 @@ function Sobre() {
   return (
     <>
     <div className="Sobre">
-        <h2>Esta é a página Sobre...</h2>
+        <p>Esta é a página Sobre...</p>
     </div>
     </>
   );

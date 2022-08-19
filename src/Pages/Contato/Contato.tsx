@@ -4,7 +4,7 @@ function Contato() {
   return (
     <>
     <div className="Contato">
-        <h2>Esta é a página de Contato</h2>
+        <p>Esta é a página de Contato</p>
     </div>
     </>
   );
